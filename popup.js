@@ -57,7 +57,7 @@ document.getElementById('send-btn').addEventListener('click', async () => {
     });
 });
 //Function to Generate Content from AI Model.
-const API_KEY = "AIzaSyCx1fm7Zl1VwtALea1ZBZ_pQbxs88S9KKw";
+const API_KEY = "YOUR_API_KEY_HERE";
 async function generateContent(prompt) {
     showLoading(true);
     try {
