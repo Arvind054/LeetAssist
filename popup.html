@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>LeetCoach Chat</title>
+</head>
+<body>
+  <div class="chat-container">
+    <h1 class="chat-title">🤖 LeetCoach</h1>
+    <div class="chat-window" id="chat-window">
+      <div class="bot-message">Hi there! 👋 How can I help you with your LeetCode problem today?</div>
+      <h2 class="problemTitle"></h2>
+
+    </div>
+    <div id="loader" style="display: none;">
+      <div class="spinner"></div>
+  </div>
+    <!-- Action buttons bar -->
+    <div class="action-bar">
+      <button class="action-btn" id="hint-btn">💡 Hint</button>
+      <button class="action-btn" id="follow-btn">📍 Follow-Up</button>
+      <button class="action-btn" id="complexity-btn">🧮 Complexity</button>
+    </div>
+
+    <!-- Input area -->
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="Ask something..." />
+      <button id="send-btn">➤</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
